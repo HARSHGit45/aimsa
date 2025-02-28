@@ -1148,3 +1148,154 @@ label {
 .portfolio-items div p {
   margin: 1rem 0;
 }
+
+
+
+.datathon{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.datathon-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 50px;
+  border: 2px solid #0a1e88 ;
+  border-radius: 10px;
+}
+
+.datathon-login input{
+  padding: 5px 10px;
+  border: 2px solid #0a1e88;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+.datathon-login button{
+  cursor: pointer;
+  background-color: #0a1e88;
+  color: white;
+  border-radius: 5px;
+  padding: 6px 30px;
+  border: none;
+  margin-top: 20px;
+}
+
+.datathon-login button:hover{
+  box-shadow: 2px 2px 7px black;
+}
+
+.datathon h1{
+  margin-bottom: 30px;
+  color: #0a1e88;
+  font-weight: bold;
+  
+}
+
+.datathon-step2{
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  align-items: center;
+  margin: 150px auto auto;
+}
+
+.datathon-step2 .leaderBoard{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.datathon-step2 .upload-csv{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.datathon-step2 .upload-csv button, .datathon-step3 button{
+    padding: 20px;
+    background-color: #0a1e88;
+    color: white;
+    border: none;
+}
+
+
+.datathon-step3{
+  margin-top: 150px;
+}
+
+
+.buttons .submit {
+  padding: 10px 15px;
+  background-color: #0a1e53;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons .submit:hover {
+  background-color: #0a1e53;
+}
+
+.datathon-step3 .border-2 {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.text-blue-600 {
+  color: #007bff;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 16px auto auto;
+}
+
+.file-info img {
+  width: 100px;
+  height: 100px;
+  margin-right: 8px;
+}
+
+.file-info p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.upload-file{
+  margin: auto;
+}
+
+.submit-results{
+  display: flex;
+  width: 200px;
+  margin: 30px auto auto;
+  justify-content: center;
+}
+
+.submit-results button{
+  padding: 10px 20px;
+  border-radius: 5px;
+}

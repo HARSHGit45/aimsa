@@ -7,6 +7,7 @@ import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import { Datathon } from "./components/Datathon";
 import JuniorExecutives from "./components/JuniorExecutives";
 import JsonData from "./data/data.json";
 
@@ -62,6 +63,10 @@ const App = () => {
           <Route
             path="/junior-executives"
             element={<JuniorExecutives data={landingPageData.JuniorExecutives || []} />}
+          />
+          <Route
+            path="/datathon"
+            element={<Datathon />}
           />
         </Routes>
     
